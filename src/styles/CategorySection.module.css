@@ -1,0 +1,6 @@
+.categorySection {
+  grid-area: 2 / 1 / span 1 / span 1;
+  border-left: var(--primary-border);
+  display: flex;
+  flex-direction: column;
+}

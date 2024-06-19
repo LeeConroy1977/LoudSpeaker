@@ -1,0 +1,7 @@
+.navBar {
+  grid-area: 1 / 1 / span 1 / span 3;
+  border: var(--primary-border);
+  border-top: none;
+  display: flex;
+  flex-direction: row;
+}
