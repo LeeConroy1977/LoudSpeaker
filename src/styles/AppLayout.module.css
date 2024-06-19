@@ -1,0 +1,9 @@
+.appLayout {
+  width: 80vw;
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: 20% 58% 22%;
+  grid-template-rows: 9% 91%;
+  background-color: white;
+}

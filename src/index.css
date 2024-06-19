@@ -1,5 +1,19 @@
+:root {
+  --primary-border: 1px solid #d2d2d2;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #ebebeb;
+  font-family: Roboto, Arial, sans-serif;
 }
