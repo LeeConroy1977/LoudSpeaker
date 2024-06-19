@@ -3,4 +3,5 @@
   border-right: var(--primary-border);
   display: flex;
   flex-direction: column;
+  padding: 1.2rem;
 }

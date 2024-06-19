@@ -1,8 +1,13 @@
 import React from "react";
 import styles from "../styles/FeaturesSection.module.css";
+import FeaturesList from "./FeaturesList";
 
-const FeaturesSection = () => {
-  return <div className={styles.featuresSection}>FeaturesSection</div>;
+const FeaturesSection = ({ articles, users }) => {
+  return (
+    <div className={styles.featuresSection}>
+      <FeaturesList articles={articles} users={users} />
+    </div>
+  );
 };
 
 export default FeaturesSection;
