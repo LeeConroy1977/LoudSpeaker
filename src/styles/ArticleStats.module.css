@@ -1,0 +1,6 @@
+.articleStats {
+  display: flex;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+}
